@@ -1,0 +1,20 @@
+{
+  "branch": "unknown",
+  "reviewed_at": "2026-04-16T00:00:00Z",
+  "files_reviewed": [
+    "src/App.tsx",
+    "src/index.css",
+    "src/components/StageProgress.tsx",
+    "src/components/SessionSidebar.tsx",
+    "src/components/ChatPanel.tsx",
+    "src/components/FocusSelector.tsx",
+    "src/components/GoalSummaryCard.tsx"
+  ],
+  "findings": [],
+  "summary": {
+    "critical": 0,
+    "high": 0,
+    "moderate": 0,
+    "nice_to_have": 0
+  }
+}
