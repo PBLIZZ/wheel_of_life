@@ -1,6 +1,47 @@
 # Wheel of Life Coach
 
-Private MVP for a structured Wheel of Life coaching session built with React, Vite, TypeScript, Convex, and Convex Auth.
+A personal AI coaching app that replicates a high-quality Wheel of Life
+goal-setting session — not a generic chatbot, but a structured, stage-based
+process that helps one user arrive at a goal they'll actually act on.
+
+## What it does
+
+Most Wheel of Life exercises stall at "rate your life areas 1–10." This app
+runs the full coaching arc the best coaches use: it scores satisfaction across
+life areas, reflects patterns back, surfaces the limiting beliefs and internal
+conflicts that quietly block progress, and lands on one realistic goal plus one
+concrete next action.
+
+## How it works
+
+A deterministic, multi-stage workflow keeps the AI grounded and inspectable:
+
+1. **Wheel scoring** — rate satisfaction across life areas
+2. **Reflection** — patterns reflected back, with sharp coaching questions
+3. **Focus selection** — pick the area to work on
+4. **Reality exploration** — what's actually going on
+5. **Belief / conflict exploration** — name the limiting or conflicting beliefs
+6. **Goal creation** — one realistic goal
+7. **Obstacles** — what's in the way
+8. **Next action** — one concrete step you'd actually take
+
+Each stage injects its own prompt block on top of a stable base coach prompt,
+so behaviour stays structured rather than relying on one brittle mega-prompt.
+If a user expresses serious distress, the coach steps out of deep coaching and
+points toward human support.
+
+## Tech stack
+
+- **Frontend:** React 19, Vite, TypeScript
+- **Backend / data:** Convex
+- **Auth:** Convex Auth (Google OAuth)
+- **LLM:** provider-agnostic — OpenAI or Anthropic, switchable in-app via your own API keys
+- **UI:** Framer Motion, Lucide icons
+
+## Status
+
+Single-user MVP — built to be lean and shippable. Scoped to one authenticated
+user with no teams, billing, or analytics by design.
 
 ## Setup
 
