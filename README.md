@@ -1,4 +1,4 @@
-# Wheel of Life Coach
+![Wheel of Life Coach](assets/wol_banner.png)
 
 ![Status](https://img.shields.io/badge/status-MVP-orange)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
